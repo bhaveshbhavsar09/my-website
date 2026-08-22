@@ -326,3 +326,18 @@ footer {
         padding: 15px;
     }
 }
+footer .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff69b4; /* hot pink */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+footer .btn:hover {
+    background: #32cd32; /* lime green hover */
+}
