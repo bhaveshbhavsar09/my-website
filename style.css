@@ -338,6 +338,39 @@ footer .btn {
     transition: background 0.3s ease;
 }
 
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.cta-buttons .btn {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.cta-buttons .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+}
+
+.cta-buttons .btn-primary {
+    background: #ff69b4;
+    color: #fff;
+}
+
+.cta-buttons .btn-secondary {
+    background: #00bfff;
+    color: #fff;
+}
+
 footer .btn:hover {
     background: #32cd32; /* lime green hover */
 }
