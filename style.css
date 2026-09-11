@@ -509,6 +509,36 @@ footer .btn {
     font-weight: bold;
 }
 
+.testimonial {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #fffacd, #e0ffff);
+    border-left: 6px solid #ff69b4;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.testimonial h2 {
+    margin-bottom: 15px;
+    color: #444;
+    font-size: 2rem;
+}
+
+.testimonial blockquote {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.7;
+    font-style: italic;
+}
+
+.quote-author {
+    margin-top: 12px;
+    font-weight: bold;
+    color: #ff4500;
+}
+
 footer .btn:hover {
     background: #32cd32; /* lime green hover */
 }
