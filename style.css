@@ -426,6 +426,39 @@ footer .btn {
     margin-top: 20px;
 }
 
+.tech-stack {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 25px 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.tech-stack h2 {
+    margin-bottom: 20px;
+    color: #444;
+    font-size: 2rem;
+}
+
+.tech-badges {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.tech-badges span {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff69b4, #00bfff);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 999px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
 footer .btn:hover {
     background: #32cd32; /* lime green hover */
 }
