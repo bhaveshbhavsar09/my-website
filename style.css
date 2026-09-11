@@ -539,6 +539,56 @@ footer .btn {
     color: #ff4500;
 }
 
+.contact-strip {
+    max-width: 800px;
+    margin: 50px auto 20px;
+    padding: 25px 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contact-strip h2 {
+    margin-bottom: 18px;
+    color: #444;
+    font-size: 2rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.social-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 18px;
+    border-radius: 999px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.95;
+}
+
+.social-btn.email {
+    background: #ff69b4;
+}
+
+.social-btn.phone {
+    background: #32cd32;
+}
+
+.social-btn.github {
+    background: #333;
+}
+
 footer .btn:hover {
     background: #32cd32; /* lime green hover */
 }
