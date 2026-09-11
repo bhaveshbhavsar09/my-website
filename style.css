@@ -589,6 +589,47 @@ footer .btn {
     background: #333;
 }
 
+.stats-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 25px 20px;
+    background: linear-gradient(135deg, #fffacd, #ffe4e1);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.stats-section h2 {
+    margin-bottom: 20px;
+    color: #444;
+    font-size: 2rem;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    gap: 16px;
+}
+
+.stat-item {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px 15px;
+    border: 2px solid #ffd166;
+}
+
+.stat-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+.stat-label {
+    color: #555;
+    font-size: 0.95rem;
+}
+
 footer .btn:hover {
     background: #32cd32; /* lime green hover */
 }
